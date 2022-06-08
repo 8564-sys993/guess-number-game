@@ -35,11 +35,11 @@ document.querySelector('.check').addEventListener('click', function (){
 
     }else if(guess>20){
         if(score>1){
-        document.querySelector('.message').textContent='😒😒 aaukad me rh madrjat randi ki aulad';
+        document.querySelector('.message').textContent='😒😒 out of range';
         score--
         document.querySelector('.score').textContent = score;
         }else{
-            document.querySelector('.message').textContent='😧😬 ma chud gyi teri nikal lode❤️';
+            document.querySelector('.message').textContent='😧😬❤️';
             document.querySelector('.score').textContent = 0;
 
         }
